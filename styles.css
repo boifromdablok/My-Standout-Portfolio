@@ -1,0 +1,114 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Domine', serif;
+    background-color: #F6F7F6;
+    color: #2C415C;
+}
+
+header {
+    background-color: #827589;
+    color: #F6F7F6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #F6F7F6;
+    text-decoration: none;
+    font-family: 'David Libre', serif;
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-family: 'Mr Bedfort', serif;
+    font-size: 48px;
+}
+
+.hero p {
+    font-family: 'David Libre', serif;
+    font-size: 20px;
+    color: #B7A17A;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-family: 'David Libre', serif;
+    font-size: 36px;
+    border-bottom: 2px solid #B7A17A;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-section ul li {
+    background-color: #B7A17A;
+    color: #F6F7F6;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-family: 'David Libre', serif;
+    font-size: 28px;
+}
+
+.project p {
+    font-family: 'Domine', serif;
+}
+
+.project a {
+    color: #8D9DB3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2C415C;
+    color: #F6F7F6;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
