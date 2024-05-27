@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&family=David+Libre:wght@400;700&family=Domine:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&family=David+Libre:wght@400;700&family=Domine:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <center>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="team.html">Project Team</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h1>About Me</h1>
-            <p>Get to know me better</p>
+        <div class="container">
+            <div class="logo">My Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_me.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="team.html">Project Team</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
-    
+    <div class="hero">
+        <h1>About Me</h1>
+        <p>Get to know me better</p>
+    </div>
+
     <main>
         <section class="about-section">
             <h2>My Background</h2>
-            <p>I'm a final-year engineering student ready to step into the professional world through an internship. I've worked on several projects throughout my coursework and possibly some personal initiatives too, covering areas such as robotics, renewable energy systems, and software development. Each project has honed different technical skills, from coding in Python to designing efficient solar-powered systems.</p>
-            <p>However, capturing the attention of potential employers amidst a sea of other applicants is a formidable challenge. I aspire to have a compelling way to showcase my projects, skills, and unique capabilities. In this digital age, a captivating portfolio website can serve as a dynamic platform to highlight my engineering prowess and set me apart from other candidates.</p>
+            <p>I'm a final-year engineering student ready to step into the professional world through an internship.
+                I've worked on several projects throughout my coursework and possibly some personal initiatives too,
+                covering areas such as robotics, renewable energy systems, and software development. Each project has
+                honed different technical skills, from coding in Python to designing efficient solar-powered systems.
+            </p>
+            <p>However, capturing the attention of potential employers amidst a sea of other applicants is a formidable
+                challenge. I aspire to have a compelling way to showcase my projects, skills, and unique capabilities.
+                In this digital age, a captivating portfolio website can serve as a dynamic platform to highlight my
+                engineering prowess and set me apart from other candidates.</p>
         </section>
-    </center>
+
         <section class="interests-section">
-            <center>
             <h2>My Interests</h2>
-            </center>
             <p>In my free time, I enjoy pursuing a variety of interests and hobbies:</p>
             <ul>
                 <li>Traveling and exploring new places</li>
@@ -50,7 +67,13 @@
     <br>
     <br>
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Portfolio. All rights reserved.</p>
     </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>

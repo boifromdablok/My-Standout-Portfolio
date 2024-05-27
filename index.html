@@ -1,78 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&family=David+Libre:wght@400;700&family=Domine:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="/images/portfolio.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&family=David+Libre:wght@400;700&family=Domine:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <center>
     <header>
-        <nav>
-            <ul>
-                <li><a href="about_me.html">About Me</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="team.html">Project Team</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h1>My Standout Portfolio</h1>
-            <p>Engineering Innovation, Empowering the Future</p>
+        <div class="container">
+            <div class="logo">My Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_me.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="team.html">Project Team</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
-    
+
+    <div class="hero">
+        <div class="container">
+            <h1>My Standout Portfolio</h1>
+            <p>Engineering Innovation, Empowering the Future</p>
+            <a href="projects.html" class="button">View Projects</a>
+        </div>
+    </div>
+
     <main>
-        <section id="about" class="about-section">
-            <h2>About Me</h2>
-            <p>I'm a final-year engineering student ready to step into the professional world through an internship. I've worked on several projects throughout my coursework and possibly some personal initiatives too, covering areas such as robotics, renewable energy systems, and software development. Each project has honed different technical skills, from coding in Python to designing efficient solar-powered systems.</p>
-        </section>
-        
-        <section id="skills" class="skills-section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Python programming</li>
-                <li>C++ programming</li>
-                <li>Database management (SQL)</li>
-                <li>HTML/CSS</li>
-            </ul>
-        </section>
-        
-        <section id="projects" class="projects-section">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Robotics Project</h3>
-                <p>This project involved designing and building an autonomous robot capable of navigating complex environments. The robot utilized various sensors, including ultrasonic and infrared sensors, to detect and avoid obstacles. I programmed the control system using C++ and integrated it with the hardware components. The project enhanced my skills in embedded systems, robotics programming, and real-time problem-solving.</p>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a final-year engineering student ready to step into the professional world through an
+                    internship...</p>
             </div>
-            <div class="project">
-                <h3>Renewable Energy Systems Project</h3>
-                <p>In this project, I focused on designing a renewable energy system for a small residential building. The system combined solar panels and wind turbines to provide a sustainable energy solution. I conducted an in-depth analysis of energy consumption patterns and optimized the system for maximum efficiency. The project helped me develop skills in energy system design, sustainability analysis, and the use of simulation software such as MATLAB and Simulink.</p>
+        </section>
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <p>Python, JavaScript, HTML, CSS, React, Node.js, and more...</p>
             </div>
-            <!-- Add more projects as needed -->
         </section>
-    </center>
-        
-        <section id="contact" class="contact-section">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me via the following methods:</p>
-            <ul>
-                <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn Profile</a></li>
-                <li>GitHub: <a href="https://github.com/your-username" target="_blank">Your GitHub Profile</a></li>
-            </ul>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-cards">
+                    <!-- Project Card Example -->
+                    <div class="card">
+                        <img src="images/robotics.jpg" alt="Project 1">
+                        <div class="card-content">
+                            <h3>Robotics Project</h3>
+                            <p>Developed an autonomous robot capable of navigating through complex environments...</p>
+                            <button class="button open-modal" data-modal="modal1">Read More</button>
+                        </div>
+                    </div>
+                    <!-- Add more project cards as needed -->
+                </div>
+            </div>
         </section>
-        
     </main>
-    <br>
-    <br>
-    <br>
 
     <footer>
         <p>&copy; 2024 Portfolio. All rights reserved.</p>
     </footer>
+
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Robotics Project</h2>
+            <a href="projects/robotics.html">Detailed description of the Robotics Project...</a>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
