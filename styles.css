@@ -3,13 +3,13 @@
 body {
     margin: 0;
     font-family: 'Domine', serif;
-    background-color: #6CAAD1;
+    background-color: #ffffff;
     color: #2C415C;
 }
 
 header {
     background-color: #231C28;
-    color: #6CAAD1;
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
@@ -25,7 +25,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #6CAAD1;
+    color: #ffffff;
     text-decoration: none;
     font-family: 'David Libre', serif;
 }
@@ -68,7 +68,7 @@ section h2 {
 
 .skills-section ul li {
     background-color: #B7A17A;
-    color: #6CAAD1;
+    color: #ffffff;
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
@@ -105,7 +105,7 @@ section h2 {
 
 footer {
     background-color: #2C415C;
-    color: #6CAAD1;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
     position: fixed;
